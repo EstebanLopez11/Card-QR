@@ -1,0 +1,54 @@
+:root {
+    /* Colores */
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212,45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+    --fuente-principal: 'Outfit', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--light-gray);
+    font-family: var(--fuente-principal);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.contenedor{
+    background-color: var(--white);
+    border-radius: 2rem;
+    height: 55rem;
+    width: 34rem;  
+}
+
+img {
+    height: 30rem;
+    border-radius: 2rem;
+    margin: 2rem;
+}
+
+.titulos {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: auto 4rem;
+}
+
+.subTitulo {
+    color: var(--grayish-blue);
+}
+
+
